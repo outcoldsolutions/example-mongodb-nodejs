@@ -1,22 +1,19 @@
-Employee Database
+Example: NodeJS + MongoDB
 =====================
 
-**A sample Employee Database CRUD application with Node.js, Express and MongoDB.**
+> Example how to collect metrics from MongoDB + NodeJS (MEAN stack) to Splunk
+> using collectord (see https://www.outcoldsolutions.com)
 
-## Requirements
+## Installation
 
-* Node
-* Express
-* MongoDB
+```bash
+docker build -t 127.0.0.1:5000/employeedb-web .
+docker push 127.0.0.1:5000/employeedb-web
+```
 
-## Implementation Instructions
+## Reference
 
-* [A Sample App with Node.js, Express and MongoDB – Part 1](http://blog.ijasoneverett.com/2013/03/a-sample-app-with-node-js-express-and-mongodb-part-1/)
-* [A Sample App with Node.js, Express and MongoDB – Part 2](http://blog.ijasoneverett.com/2013/04/a-sample-app-with-node-js-express-and-mongodb-part-2/)
+- https://github.com/fabric8io/configmapcontroller/tree/master/vendor/k8s.io/kubernetes/examples/nodesjs-mongodb
+- (Forked) https://github.com/ijason/NodeJS-Sample-App
 
-## Contact
 
-Jason Everett
-
-- https://github.com/ijason
-- http://twitter.com/ijayson66
